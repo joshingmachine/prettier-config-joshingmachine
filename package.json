@@ -1,0 +1,26 @@
+{
+  "name": "prettier-config-joshingmachine",
+  "version": "0.0.0",
+  "description": "A shareable version of my Prettier config file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshingmachine/prettier-config-joshingmachine.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettierrc",
+    "joshingmachine",
+    "config",
+    "prettierconfig"
+  ],
+  "author": "Josh Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshingmachine/prettier-config-joshingmachine/issues"
+  },
+  "homepage": "https://github.com/joshingmachine/prettier-config-joshingmachine#readme"
+}
