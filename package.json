@@ -2,7 +2,7 @@
   "name": "prettier-config-joshingmachine",
   "version": "0.1.0",
   "description": "A shareable version of my Prettier config file",
-  "main": "index.js",
+  "main": "prettier.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/joshingmachine/prettier-config-joshingmachine/issues"
   },
-  "homepage": "https://github.com/joshingmachine/prettier-config-joshingmachine#readme"
+  "homepage": "https://github.com/joshingmachine/prettier-config-joshingmachine#readme",
+  "peerDependencies": {
+    "prettier": "~1.9.0"
+  }
 }
