@@ -1,0 +1,17 @@
+language: node_js
+node_js: "lts/*"
+env:
+    - NODE_ENV=development
+cache:
+    directories:
+        - "node_modules"
+install: "npm install"
+script: "npm test"
+deploy:
+    provider: npm
+    email: "$NPM_EMAIL"
+    api_key: "$NPM_TOKEN"
+    on:
+        repo: joshingmachine/prettier-config-joshingmachine
+        tags: true
+        branch: master
